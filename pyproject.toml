@@ -18,10 +18,8 @@ calendra = "^7.9.0"
 pytz = "^2024.1"
 
 [tool.poetry.dev-dependencies]
-mypy = "0.782"
-flake8 = "^3.8.0"
 freezegun = "^1.1.0"
-coverage = { version = "^5.5", extras = ["toml"] }
+coverage = { version = "^7.4.4", extras = ["toml"] }
 
 [tool.poetry.scripts]
 tests = "tests.discover:run"
