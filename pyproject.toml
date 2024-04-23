@@ -18,7 +18,7 @@ calendra = "^7.9.0"
 pytz = "^2024.1"
 
 [tool.poetry.dev-dependencies]
-mypy = "0.782"
+mypy = "1.9.0"
 flake8 = "^3.8.0"
 freezegun = "^1.1.0"
 coverage = { version = "^5.5", extras = ["toml"] }
