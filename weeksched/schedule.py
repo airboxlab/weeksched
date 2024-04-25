@@ -357,7 +357,7 @@ class WeeklySchedule:
 
     def _set_day_schedule(self, day: int, sched: tuple):
         """Set a day schedule."""
-        self._schedule[day] = self.to_vector(sched).reshape(24, 60)
+        self._schedule[day] = self.to_vector(sched)
         self._validate()
 
     @staticmethod
@@ -366,7 +366,7 @@ class WeeklySchedule:
         slots = np.zeros((7, 24, 60), dtype=bool)
         for day, day_sched in ctrl_sched.items():
             assert day in range(7), "day should be in range 0-6"
-            slots[day] = WeeklySchedule.to_vector(day_sched).reshape(24, 60)
+            slots[day] = WeeklySchedule.to_vector(day_sched)
         return slots
 
     @staticmethod
@@ -403,7 +403,7 @@ class WeeklySchedule:
         else:
             raise ValueError(f"Invalid day schedule format. Expected 2D or 3D tuple. Got {ndim}D.")
 
-        return slots
+        return slots.reshape(24, 60)
 
     def _validate(self):
         """Validate the weekly schedule.
