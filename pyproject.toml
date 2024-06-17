@@ -13,7 +13,7 @@ priority = "primary"
 
 [tool.poetry.dependencies]
 python = "~3.10"
-numpy = "^1.22.3"
+numpy = "^2.0.0"
 calendra = "^7.9.0"
 pytz = "^2024.1"
 
