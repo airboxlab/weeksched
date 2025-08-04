@@ -18,7 +18,7 @@ calendra = "^7.11.0"
 pytz = "^2025.1"
 
 [tool.poetry.dev-dependencies]
-freezegun = "^1.5.1"
+freezegun = "^1.5.4"
 coverage = { version = "^7.6.0", extras = ["toml"] }
 
 [tool.poetry.scripts]
