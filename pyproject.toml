@@ -14,12 +14,12 @@ priority = "primary"
 [tool.poetry.dependencies]
 python = "~3.10"
 numpy = "^1.26.4"
-calendra = "^7.11.0"
+calendra = "^7.11.1"
 pytz = "^2025.1"
 
 [tool.poetry.dev-dependencies]
-freezegun = "^1.5.1"
-coverage = { version = "^7.6.0", extras = ["toml"] }
+freezegun = "^1.5.5"
+coverage = { version = "^7.10.7", extras = ["toml"] }
 
 [tool.poetry.scripts]
 tests = "tests.discover:run"
