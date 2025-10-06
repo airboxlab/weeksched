@@ -1,6 +1,6 @@
-calendra==7.11.0 ; python_version >= "3.10" and python_version < "3.11" \
-    --hash=sha256:83bec0e18742293a1aad08c8965c7dc3ee2d8023d4993e9c3a41e0e53aa85c10 \
-    --hash=sha256:963a941b35116b63d8218bad8771582aec53c58b7d38f76033b5416aa6bce9aa
+calendra==7.11.1 ; python_version >= "3.10" and python_version < "3.11" \
+    --hash=sha256:397b552b8d937132c504ced13657aad5a6a64ae311a043ab24f35127dc275584 \
+    --hash=sha256:9399e08bb8fbf750402a8a032219eeb0cae1ead52f3bf4621b722b9df4aa1e02
 convertdate==2.4.0 ; python_version >= "3.10" and python_version < "3.11" \
     --hash=sha256:770c6b2195544d3e451e230b3f1c9b121ed02680b877f896306a04cf6f26b48f \
     --hash=sha256:fcffe3a67522172648cf03b0c3757cfd079726fe5ae04ce29989ad3958039e4e
