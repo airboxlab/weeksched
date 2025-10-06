@@ -7,9 +7,9 @@ convertdate==2.4.0 ; python_version >= "3.10" and python_version < "3.11" \
 lunardate==0.2.2 ; python_version >= "3.10" and python_version < "3.11" \
     --hash=sha256:8ff8c01721bef7710f0712a302b1cb7d0b8b3ffc72a63a9a056cd01e58e5485a \
     --hash=sha256:cf1916337e50470a82df12d885ff47a456e89c91a3ad4e5fdf1575e063a7ed55
-more-itertools==10.7.0 ; python_version >= "3.10" and python_version < "3.11" \
-    --hash=sha256:9fddd5403be01a94b204faadcff459ec3568cf110265d3c54323e1e866ad29d3 \
-    --hash=sha256:d43980384673cb07d2f7d2d918c616b30c659c089ee23953f601d6609c67510e
+more-itertools==10.8.0 ; python_version >= "3.10" and python_version < "3.11" \
+    --hash=sha256:52d4362373dcf7c52546bc4af9a86ee7c4579df9a8dc268be0a2f949d376cc9b \
+    --hash=sha256:f638ddf8a1a0d134181275fb5d58b086ead7c6a72429ad725c67503f13ba30bd
 numpy==1.26.4 ; python_version >= "3.10" and python_version < "3.11" \
     --hash=sha256:03a8c78d01d9781b28a6989f6fa1bb2c4f2d51201cf99d3dd875df6fbd96b23b \
     --hash=sha256:08beddf13648eb95f8d867350f6a018a4be2e5ad54c8d8caed89ebca558b2818 \
