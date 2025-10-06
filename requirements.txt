@@ -47,9 +47,9 @@ numpy==1.26.4 ; python_version >= "3.10" and python_version < "3.11" \
     --hash=sha256:edd8b5fe47dab091176d21bb6de568acdd906d1887a4584a15a9a96a1dca06ef \
     --hash=sha256:f870204a840a60da0b12273ef34f7051e98c3b5961b61b0c2c1be6dfd64fbcd3 \
     --hash=sha256:ffa75af20b44f8dba823498024771d5ac50620e6915abac414251bd971b4529f
-pyluach==2.2.0 ; python_version >= "3.10" and python_version < "3.11" \
-    --hash=sha256:9063a25387cd7624276fd0656508bada08aa8a6f22e8db352844cd858e69012b \
-    --hash=sha256:d1eb49d6292087e9290f4661ae01b60c8c933704ec8c9cef82673b349ff96adf
+pyluach==2.3.0 ; python_version >= "3.10" and python_version < "3.11" \
+    --hash=sha256:4497b731aef59508b079dbf5f00bc5bf4329ac45090a6cd37b5a83756f0e69ab \
+    --hash=sha256:ec6e30669d1df50c9ca160486da44a8195bb4c7a5d3d533990d0c5b03accd281
 pymeeus==0.5.12 ; python_version >= "3.10" and python_version < "3.11" \
     --hash=sha256:548f7186bd8b96cbc069cf649a8e8e377dce49ac74486709849fe63a99cad684
 python-dateutil==2.9.0.post0 ; python_version >= "3.10" and python_version < "3.11" \
